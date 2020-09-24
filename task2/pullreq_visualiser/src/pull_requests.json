@@ -1,0 +1,35 @@
+{
+	"req_1": {
+		"date": "2020-03-15",
+		"state": "Merged"
+		},
+	"req_2": {
+		"date": "2020-03-16",
+		"state": "Merged"
+	},
+	"req_3": {
+		"date": "2020-03-21",
+		"state": "Merged"
+	},
+	"req_4": {
+		"date": "2020-03-24",
+		"state": "Merged"
+	},
+	"req_5": {
+		"date": "2020-03-25",
+		"state": "Merged"
+	},
+	"req_6": {
+		"date": "2020-04-06",
+		"state": "Merged"
+		},
+	"req_7": {
+		"date": "2020-04-07",
+		"state": "Merged"
+	},
+	"req_8": {
+		"date": "2020-04-08",
+		"state": "Merged"
+	}
+
+}
