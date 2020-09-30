@@ -31,18 +31,17 @@ def draw_plot(dictt):
 
 
 def parse_json():
-    json_file = open(sys.argv[1], 'r')
-
+    #json_file = open(sys.argv[1], 'r')
+    json_file = open("pr.json", 'r')
     json_text = json_file.read()
     json_file.close()
     source = json.loads(json_text)
     dictt = dict()
     for i in source:
-        ddate = source[i]["date"]
-        state = source[i]["state"]
-        if state == "Merged":
-            if source[i]["date"] in dictt:
-
+        ddate = i["closedDate"][0:10]
+        state = i["state"]
+        if state == "MERGED":
+            if i["closedDate"] in dictt:
                 dictt[ddate] += 1
             else:
                 dictt[ddate] = 1
